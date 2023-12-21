@@ -16,7 +16,7 @@ ui <- fluidPage(
   tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")),
   
   div(class = "header", style = "display: flex; align-items: center;",
-      img(src = "ZZ-logo_Z-only.png", height = "90px", style = "margin-right: 10px;"),
+      # img(src = "ZZ-logo_Z-only.png", height = "90px", style = "margin-right: 10px;"),
       div(class = "titlePanel", 
           h1("AB Test Evaluation", style = "margin: 0; color: #333232; font-size: 36px;")
       )
